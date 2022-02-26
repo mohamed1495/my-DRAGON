@@ -1,0 +1,375 @@
+
+            .freem{
+                position: absolute;
+                width: 800px;
+                height: 70px;
+                left:380px;
+                top: 150px;
+                overflow: hidden;
+                    }
+            
+     .freem div{
+                position: relative;
+                width: 800px;
+                height: 60px;
+                margin-top:  30px;
+                text-align: center;
+                color:rgb(200, 235, 238);
+                font-size: 36px;
+                bottom:30px;
+                animation: freems 150s infinite ;
+                } 
+
+        *{
+                margin: 0px;
+                padding: 0 px;
+        }
+ 
+        body{
+                position: relative;
+                background-color: black;
+                width: 1348px;
+                height:1100px;
+                overflow-y: scroll;
+                overflow-x: scroll;
+            }
+
+        .logo{
+                position:relative;
+                width:600px;
+                left:-100px;
+                top:-50px;
+            }   
+
+        .dragon{
+                position:absolute;
+                color:rgb(255, 255, 255);
+                font-size: 222px;
+                left:350px;
+                top: 180px;
+                } 
+
+     .dragon2{
+                position:absolute;
+                color:hsl(184, 77%, 48%);
+                font-size: 220px;
+                left:350px;
+                top: 180px;
+                z-index: +2;
+              }
+    
+      .list1{
+                position: relative;
+                border: rgb(255, 255, 255) 2px solid;
+                width: 950px;
+                height: 60px;
+                left:360px ;
+                top:-300px;
+            }
+
+    .search{
+                position: relative;
+                font-size: 30px;
+                width: 250px;
+                height: 50px;
+                margin:5px;
+                left: 615px;
+                text-align: center;
+            }
+
+     .button{
+                position: relative;
+                font-size: 30px;
+                width: 70px;
+                height: 50px;
+                margin:5px;
+                left: 605px;
+                cursor: pointer;
+
+             }
+
+        .list{
+                position: relative;
+                background:rgb(255, 255, 255);
+                font-size: 35px;
+                width: 250px;
+                height: 40px;
+                text-align: center;
+                left: 365px;
+                top: -55px;
+                padding-top: 10px;
+                cursor: pointer;
+            }
+
+     .divlist{
+                position: relative;
+                background:rgb(255, 255, 255);
+                font-size: 35px;
+                width: 250px;
+                height: 150px;
+                text-align: center;
+                left: 365px;
+                top: -55px;
+                padding-top: 10px;
+                cursor: pointer;
+                z-index: +3;
+                overflow-x: hidden;
+                overflow-y: scroll;
+              }
+
+         a{
+                text-decoration: none;
+                color: black;
+           }
+
+     a:hover{
+               color: red;
+             }
+
+     .listdiv{
+                width: 220px;
+                height: 50px;
+                margin-left: 3px;
+                margin-top: 5px;
+                border: black 2px solid;
+                background-color: rgb(219, 219, 219);
+              }
+
+.listdiv:hover{
+                background-color: rgb(0, 0, 0);
+               }
+
+     .boock{     
+                position:relative;
+                background:rgb(255, 255, 255);
+                font-size: 40px;
+                width: 250px;
+                height: 45px;
+                top: -357px;
+                left: 472px;
+                text-align: center;
+                cursor: pointer;
+                padding-top: 5px;
+            }
+
+     .divboock{
+                position: absolute;
+                background:rgb(255, 255, 255);
+                font-size: 35px;
+                width: 250px;
+                height: 150px;
+                text-align: center;
+                left: 472px;
+                top: 502px;
+                padding-top: 10px;
+                cursor: pointer;
+                z-index: +3;
+                overflow-x: hidden;
+                overflow-y: scroll;
+               }
+
+    .listboock{
+                width: 220px;
+                height: 50px;
+                margin-left: 3px;
+                margin-top: 5px;
+                border: black 2px solid;
+                font-size: 30px;;
+                background-color: rgb(219, 219, 219);
+                }
+
+.listboock:hover{
+                background-color: black;
+                color: red;
+                }
+
+        .name{
+                position: relative;
+                font-size: 27px;
+                top: px;
+                left:px;
+                text-align: center;
+                color: rgb(255, 255, 255);
+                z-index: +5;
+                text-decoration: none;
+            }
+
+    .name:hover{
+                color: blue;
+                }
+
+     .divname{   
+                border-radius: 10%;
+                padding-top:  5px;
+                width: 100px;
+                height: 45px;
+                position: relative;
+                font-size: 27px;
+                background-color:blue;
+                top: -407px;
+                left: 367px;
+                text-align: center;
+              }
+
+.divname:hover{
+                background-color: aliceblue;
+                }
+
+     .search2{    
+                position: absolute;
+                border: rgb(255, 255, 255) 2px solid;
+                width: 950px;
+                height:500px;
+                left:360px ;
+                background-color: aliceblue;
+                top:550px;
+                overflow:hidden;
+                border-radius: 10%;
+              }
+
+     #search3{
+                position:relative;
+                border: rgb(255, 255, 255) 2px solid;
+                width: 950;
+                height:450px;
+                overflow-y:scroll;
+                margin: auto;
+                top: 25px;
+                background-color: aliceblue;
+              }
+
+     .manyu{
+                position:absolute;
+                background-color: aliceblue;
+                width: 300px;
+                height: 366px;
+                top: 688px;
+                left: 30px;
+                overflow-x:hidden;
+                overflow-y: scroll;
+            }
+
+     .namemanyu{
+                position: relative;
+                text-align: center;
+                font-size: 40px;
+                border: rgb(255, 255, 255) 3px solid;
+                width: 294px;
+                left: 29.5px;
+                top: -272px;
+                background-color: dodgerblue;
+                z-index: +1;
+                }
+
+     #x{
+                position: fixed;
+                width: 12%;
+                left: 88%;
+                top: 10px;
+                z-index: +100;
+        }
+
+@keyframes freems {
+                0%{bottom:-40px;}
+                1%{bottom:-40px;}
+                2%{bottom:-40px;}
+                3%{bottom:30px;}
+                4%{bottom:30px;}
+                6%{bottom:30x;}
+                7%{bottom:30px;}
+                8%{bottom:30px;}
+                9%{bottom:30px;}
+                10%{bottom:30px;}
+                11%{bottom:125px;}
+                12%{bottom:125px;}
+                13%{bottom:125px;}
+                14%{bottom:125px;}
+                15%{bottom:200px;}
+                16%{bottom:200px;}
+                17%{bottom:200px;}
+                18%{bottom:200px;}
+                19%{bottom:200px;}
+                20%{bottom:290px;}
+                21%{bottom:290px;}
+                22%{bottom:290px;}
+                23%{bottom:290px;}
+                24%{bottom:290px;}
+                25%{bottom:290px;}
+                26%{bottom:380px;}
+                27%{bottom:380px;}
+                28%{bottom:380px;}
+                29%{bottom:380px;}
+                30%{bottom:380px;}
+                31%{bottom:470px;}
+                32%{bottom:470px;}
+                33%{bottom:470px;}
+                34%{bottom:470px;}
+                35%{bottom:470px;}
+                36%{bottom:550px;}
+                37%{bottom:550px;}
+                38%{bottom:550px;}
+                39%{bottom:550px;}
+                40%{bottom:550px;}
+                41%{bottom:640px;}
+                42%{bottom:640px;}
+                43%{bottom:640px;}
+                44%{bottom:640px;}
+                45%{bottom:640px;}
+                46%{bottom:757px;}
+                47%{bottom:757px;}
+                48%{bottom:757px;}
+                49%{bottom:757px;}
+                50%{bottom:757px;}
+                51%{bottom:848px;}
+                52%{bottom:848px;}
+                53%{bottom:848px;}
+                54%{bottom:848px;}
+                55%{bottom:848px;}
+                56%{bottom:925px;}
+                57%{bottom:925px;}
+                58%{bottom:925px;}
+                59%{bottom:925px;}
+                60%{bottom:925px;}
+                61%{bottom:1020px;}
+                62%{bottom:1020px;}
+                63%{bottom:1020px;}
+                64%{bottom:1020px;}
+                65%{bottom:1020px;}
+                66%{bottom:1100px;}
+                67%{bottom:1100px;}
+                68%{bottom:1100px;}
+                69%{bottom:1100px;}
+                70%{bottom:1100px;}
+                71%{bottom:1190px;}
+                72%{bottom:1190px;}
+                73%{bottom:1190px;}
+                74%{bottom:1190px;}
+                75%{bottom:1190px;}
+                76%{bottom:1270px;}
+                77%{bottom:1270px;}
+                78%{bottom:1270px;}
+                79%{bottom:1270px;}
+                80%{bottom:1270px;}
+                81%{bottom:1360px;}
+                82%{bottom:1360px;}
+                83%{bottom:1360px;}
+                84%{bottom:1360px;}
+                85%{bottom:1360px;}
+                86%{bottom:1450px;}
+                87%{bottom:1450px;}
+                88%{bottom:1450px;}
+                89%{bottom:1450px;}
+                90%{bottom:1450px;}
+                91%{bottom:1550px;}
+                92%{bottom:1550px;}
+                93%{bottom:1550px;}
+                94%{bottom:1550px;}
+                95%{bottom:1550px;}
+                96%{bottom:1640px;}
+                97%{bottom:1640px;}
+                98%{bottom:1640px;}
+                99%{bottom:1640px;}
+                100%{bottom:1640px;}                                
+                }
+
+    
